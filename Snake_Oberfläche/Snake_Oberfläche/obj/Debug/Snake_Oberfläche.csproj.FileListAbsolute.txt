@@ -8,3 +8,13 @@ C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Oberfläche\Snake_Oberflä
 C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\obj\Debug\Snake_Oberfläche.exe
 C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\obj\Debug\Snake_Oberfläche.pdb
 C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\obj\Debug\Snake_Oberfläche.Playfield_main.resources
+C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\bin\Debug\Snake_Oberfläche.exe.config
+C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\bin\Debug\Snake_Oberfläche.exe
+C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\bin\Debug\Snake_Oberfläche.pdb
+C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\obj\Debug\Snake_Oberfläche.csprojAssemblyReference.cache
+C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\obj\Debug\Snake_Oberfläche.Playfield_main.resources
+C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\obj\Debug\Snake_Oberfläche.Properties.Resources.resources
+C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\obj\Debug\Snake_Oberfläche.csproj.GenerateResource.cache
+C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\obj\Debug\Snake_Oberfläche.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\obj\Debug\Snake_Oberfläche.exe
+C:\Users\stefa\Documents\Bastelleien\Snake_Game\Snake_Game\Snake_Oberfläche\Snake_Oberfläche\obj\Debug\Snake_Oberfläche.pdb

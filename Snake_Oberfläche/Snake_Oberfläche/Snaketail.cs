@@ -11,19 +11,26 @@ namespace Snake_Oberfläche
     {
         public Snaketail() 
         {
-            Tail= new List<Snakepart>();
+            Parts= new List<Snakepart>();
             this.add_Tailpart(12, 10);
             this.add_Tailpart(11, 10);
             this.add_Tailpart(10, 10);
             this.add_Tailpart(9, 10);
         }
-        public List<Snakepart> Tail;
+        public List<Snakepart> Parts;
         public void add_Tailpart(int _x, int _y)
         {
             Snakepart t = new Snakepart(_x, _y);
-            Tail.Add(t);
+            Parts.Add(t);
+
         }
-        
+        public void add_Tailpart_beginning(int _x, int _y)
+        {
+            Snakepart t = new Snakepart(_x, _y);
+            Parts.Insert(0,t);
+
+        }
+       
     }
     class Snakepart
     {

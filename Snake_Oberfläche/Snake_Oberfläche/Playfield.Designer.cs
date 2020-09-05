@@ -47,13 +47,12 @@
             // Playfieldtimer
             // 
             this.Playfieldtimer.Enabled = true;
-            this.Playfieldtimer.Interval = 1000;
             this.Playfieldtimer.Tick += new System.EventHandler(this.Playfield_Tick);
             // 
             // Movementtimer
             // 
             this.Movementtimer.Enabled = true;
-            this.Movementtimer.Interval = 10000;
+            this.Movementtimer.Interval = 500;
             this.Movementtimer.Tick += new System.EventHandler(this.Movementtimer_Tick);
             // 
             // Playfield_main
