@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.Playfield_wf = new System.Windows.Forms.PictureBox();
             this.Playfieldtimer = new System.Windows.Forms.Timer(this.components);
-            this.Movementtimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Playfield_wf)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,13 +46,8 @@
             // Playfieldtimer
             // 
             this.Playfieldtimer.Enabled = true;
+            this.Playfieldtimer.Interval = 250;
             this.Playfieldtimer.Tick += new System.EventHandler(this.Playfield_Tick);
-            // 
-            // Movementtimer
-            // 
-            this.Movementtimer.Enabled = true;
-            this.Movementtimer.Interval = 500;
-            this.Movementtimer.Tick += new System.EventHandler(this.Movementtimer_Tick);
             // 
             // Playfield_main
             // 
@@ -67,6 +61,7 @@
             this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "Playfield_main";
             this.Text = "Snake";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Playfield_main_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.Playfield_wf)).EndInit();
             this.ResumeLayout(false);
 
@@ -76,7 +71,6 @@
 
         private System.Windows.Forms.PictureBox Playfield_wf;
         private System.Windows.Forms.Timer Playfieldtimer;
-        private System.Windows.Forms.Timer Movementtimer;
     }
 }
 

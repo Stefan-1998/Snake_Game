@@ -19,7 +19,7 @@ namespace Snake_Oberfläche
 
         public Snake()
         {
-            Head_directions = Directions.Left;
+            Head_directions = Directions.Right;
             length = 5;
             Tail = new Snaketail();
             Head = new Snakepart(13, 10);
@@ -96,14 +96,14 @@ namespace Snake_Oberfläche
             switch (Head_directions)
             {
 
-                case Directions.Up:         //Fehlen der Abfrage ob Head am Rand
+                case Directions.Up:         
                     if (Head.y == 0)
                     {
-                        Head.y = 28;
+                        Head.y = 19;
                     }
                     else
                     {
-                        Head.y = Head.y + 1;
+                        Head.y = Head.y - 1;
                     }
                     break;
 
@@ -114,7 +114,7 @@ namespace Snake_Oberfläche
                     }
                     else
                     {
-                        Head.y = Head.y - 1;
+                        Head.y = Head.y + 1;
                     }
                     break;
 
@@ -131,7 +131,9 @@ namespace Snake_Oberfläche
 
                 case Directions.Left:
                     if (Head.x == 0)
-                    { Head.x = 27; }
+                    { 
+                        Head.x = 27; 
+                    }
                     else
                     {
                         Head.x = Head.x - 1;
@@ -139,6 +141,25 @@ namespace Snake_Oberfläche
                     break;
             }
 
+
+            //looks for collision
+            bool touched = touch_itself();
+            if(touched)
+            {
+                MessageBox.Show("Sie haben verloren");
+            }
+        }
+        private bool touch_itself()
+        {
+            bool touched = false;
+            foreach (Snakepart part in this.Tail.Parts)
+            {
+                if(part.x==Head.x&&part.y==Head.y)
+                {
+                    touched = true;
+                }
+            }
+            return touched;
         }
 
 
